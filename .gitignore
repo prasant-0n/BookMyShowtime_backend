@@ -1,0 +1,170 @@
+# ===========================================
+# Movie Ticket Booking Backend - .gitignore
+# ===========================================
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment Variables (CRITICAL - Never commit these!)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# Build Output
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Test Coverage
+coverage/
+.nyc_output
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache directories
+.npm
+.eslintcache
+.node_repl_history
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database files (if using local databases)
+*.db
+*.sqlite
+*.sqlite3
+
+# Upload directories (for movie posters, user avatars, etc.)
+uploads/
+public/uploads/
+temp/
+
+# Test files
+test-results/
+playwright-report/
+test-results.xml
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Backup files
+*.bak
+*.backup
+
+# Local configuration files
+config/local.js
+config/local.json
+config/local.yml
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# API keys and secrets
+secrets/
+.secrets
+
+# Payment Gateway Keys (Razorpay)
+razorpay-keys/
+payment-keys/
+
+# Cloudinary credentials
+cloudinary-keys/
+
+# Email service credentials
+email-keys/
+
+# Performance monitoring
+.pm2/
+
+# PM2 logs
+.pm2/logs/
+.pm2/pids/
+.pm2/dump/
+.pm2/module_conf.json
+
+# PM2 ecosystem files
+ecosystem.config.js
+
+# Error tracking
+.sentryclirc
+
+# Deployment platforms
+.vercel
+.netlify
+.serverless/
+
+# Infrastructure as Code
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig
+
+# Helm
+charts/*.tgz
+
+# Local development
+.local/
+.qodo/
+
+# Movie-specific files
+movie-data/
+cinema-data/
+booking-data/
+
+# External service credentials
+external-keys/
+api-keys/
+
+# Development tools
+nodemon.json
+nodemon-debug.json
+
+# Package manager files (keep only one)
+# yarn.lock (if using yarn)
+# pnpm-lock.yaml (if using pnpm) 
